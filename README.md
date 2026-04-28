@@ -49,7 +49,7 @@ The end product is intended to serve as a practical reference for anyone navigat
 
 ### Completed
 - **Data cleaning** — selected 25 relevant columns, removed incomplete records, resulting in 41,646 clean rows
-- **Unique facility identification** — combined parcel ID (APN) and business name into a normalized `unique_id` to track individual locations across multiple inspections
+- **Unique facility identification** — uses `HealthFacilityIDNumber` (city-assigned license ID) as `unique_id` to track individual locations across inspections; zero nulls and maps 1:1 to address and business name
 - **Missing value analysis** — documented gaps in violation priority (~15.5%), APN (~0.7%), and neighborhood (~1.5%) fields
 - **Cleaned dataset saved** — `cleaned_food_inspections.csv`
 
