@@ -20,8 +20,8 @@ The end product is intended to serve as a practical reference for anyone navigat
 ## Dataset
 
 **Source:** City of Minneapolis food inspection records  
-**Size:** 41,646 inspection records across 2,678 unique facilities  
-**Time range:** 2023–2024
+**Size:** 41,646 inspection records across 2,916 unique facilities  
+**Time range:** 2023–2025
 
 ### Key Fields
 
